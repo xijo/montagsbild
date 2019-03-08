@@ -1,0 +1,7 @@
+@tailwind preflight;
+@tailwind utilities;
+
+/* Your custom CSS here */
+#foo {
+  background: green;
+}

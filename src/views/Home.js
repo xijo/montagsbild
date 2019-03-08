@@ -8,6 +8,9 @@ export default ({ fields }) => {
   const { title, subtitle, featuredImage, body } = fields
   return (
     <main className='Home'>
+      <p className='bg-black'>
+        this is some thing
+      </p>
       <PageHeader
         large
         title={title}

@@ -1,13 +1,10 @@
+const tailwindcss = require('tailwindcss')
 const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   plugins: [
-    postcssPresetEnv({
-      features: {
-        customProperties: {
-          preserve: true
-        }
-      }
-    })
-  ]
-}
+    tailwindcss('./tailwind.config.js'),
+    require('autoprefixer'),
+    // postcssPresetEnv({ features: { customProperties: { preserve: true } } })
+  ],
+};
