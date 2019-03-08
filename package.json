@@ -38,15 +38,13 @@
     "react-snapshot": "^1.1.0"
   },
   "scripts": {
-    "start": "npm-run-all prepare-content -p start:content tailwind:css start:app start:cms",
+    "start": "npm-run-all prepare-content -p start:content tailwind:css start:app",
     "start:app": "react-scripts start",
     "start:content": "chokidar 'content/**/**' -c 'npm run prepare-content'",
-    "start:cms": "chokidar 'cms/cms.js' -c 'cd cms && npm run build'",
     "watch:css": "postcss src/styles/index.css -o src/index.css -w",
 
     "build": "npm-run-all -s prepare-content tailwind:css build:app build:react-snapshot build:sitemap build:sw build:sha",
     "build:app": "react-scripts build",
-    "build:cms": "cd cms && NODE_ENV=production npm run build",
     "build:react-snapshot": "react-snapshot",
     "build:sw": "sw-precache --config='sw-precache-config.js'",
     "build:sitemap": "node ./functions/generate-sitemap.js",
@@ -56,8 +54,6 @@
     "tailwind:css":"tailwind build src/css/tailwind.src.css -c tailwind.config.js -o src/css/tailwind.css",
 
     "parse-content": "node ./functions/parse-content.js",
-    "prepare": "npm run install:cms",
-    "install:cms": "cd cms && npm i",
     "resize-images": "node ./functions/resize-images.js",
     "prepare-content": "npm-run-all -s parse-content resize-images",
     "test": "standard | snazzy && react-scripts test --env=jsdom",
