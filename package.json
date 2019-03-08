@@ -44,7 +44,7 @@
     "start:cms": "chokidar 'cms/cms.js' -c 'cd cms && npm run build'",
     "watch:css": "postcss src/styles/index.css -o src/index.css -w",
 
-    "build": "npm-run-all -s prepare-content build:cms build:css build:app build:react-snapshot build:sitemap build:sw build:sha",
+    "build": "npm-run-all -s prepare-content tailwind:css build:app build:react-snapshot build:sitemap build:sw build:sha",
     "build:app": "react-scripts build",
     "build:cms": "cd cms && NODE_ENV=production npm run build",
     "build:react-snapshot": "react-snapshot",
