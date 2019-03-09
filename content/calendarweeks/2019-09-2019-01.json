@@ -4,9 +4,14 @@
   "cw": "1",
   "photos": [
     {
-      "day": "Di",
       "image": "/images/uploads/tim-marshall-155597.jpg",
+      "day": "Di",
       "description": "Coole Sache!"
+    },
+    {
+      "image": "/images/uploads/screenshot-2019-03-05-at-11.22.32.png",
+      "day": "So",
+      "description": "Ein Screenshot!"
     }
   ]
 }
