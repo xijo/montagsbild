@@ -195,6 +195,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Fira Sans',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -203,12 +204,12 @@ module.exports = {
       'Oxygen',
       'Ubuntu',
       'Cantarell',
-      'Fira Sans',
       'Droid Sans',
       'Helvetica Neue',
       'sans-serif',
     ],
     'serif': [
+      'Scope One',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',
