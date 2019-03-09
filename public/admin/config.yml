@@ -89,6 +89,54 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
+  - name: calendarweeks
+    label: Kalenderwochen
+    label_singular: Kalenderwoche
+    description: Alle Einträge werden später für die Ausgabe nach KW sortiert
+    extension: json
+    editor:
+      preview: false
+    folder: content/calendarweeks
+    create: true
+    fields:
+      - label: Kalenderwoche (YYYY-CW)
+        name: title
+        widget: string
+      - label: Sichtbar
+        name: visible
+        widget: boolean
+        default: false
+        required: false
+      - label: Bild
+        name: image
+        widget: image
+      - label: Name
+        name: name
+        widget: string
+      - label: Beschreibung
+        name: description
+        widget: text
+      - label: Fotos
+        name: photos
+        widget: list
+        fields:
+          - label: Bild
+            name: image
+            widget: image
+          - label: Wochentag
+            name: day
+            widget: select
+            options:
+              - Mo
+              - Di
+              - Mi
+              - Do
+              - Fr
+              - Sa
+              - So
+          - label: Beschreibung
+            name: description
+            widget: text
 
   - name: posts
     label: Einträge
