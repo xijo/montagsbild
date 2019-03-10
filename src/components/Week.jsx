@@ -25,7 +25,7 @@ export default class Week extends React.Component {
 
       <div className="p-3">
         <div className="font-sans font-normal text-xl mb-2">{this.props.image_name}</div>
-        <p className="text-grey-darker text-base">
+        <p className="text-grey-darker text-base whitespace-pre-wrap">
           {this.props.image_description}
         </p>
       </div>
