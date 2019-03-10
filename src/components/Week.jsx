@@ -16,6 +16,7 @@ export default class Week extends React.Component {
   getExif = (event) => {
     this.exifSrc = event.target
     EXIF.getData(event.target, this.storeExif)
+    setTimeout(this.storeExif, 1000)
   }
 
   render() {
