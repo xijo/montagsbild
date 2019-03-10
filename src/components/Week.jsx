@@ -2,6 +2,8 @@ import React from 'react'
 import _groupBy from 'lodash/groupBy'
 
 import Modal from './Modal'
+import PhotoList from './PhotoList'
+import Calendar from './Calendar'
 
 export default class Week extends React.Component {
   state = { modal: false }
@@ -51,29 +53,12 @@ class Day extends React.Component {
           <img className="shadow bg-white w-12 p-1" alt="" src={this.props.photos[0].image} />
         </div>
         {this.state.modal && <Modal padded onClose={() => this.setState({modal: false})}>
-          <img className="w-full rounded" alt="" src={this.props.photos[0].image} />
-          <div className="flex mt-2">
-            <Calendar top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
-            <div className="flex flex-col ml-2">
-              <p className="text-grey-darker text-base">
-                {this.props.photos[0].description}
-              </p>
-            </div>
-          </div>
+          <PhotoList entries={this.props.photos} cw={this.props.cw} abbr={this.props.abbr} />
         </Modal>}
       </div>
     }
     return <div className="mr-2 bg-lightgrey">
       <h3 className='text-xl text-grey font-serif font-hairline cursor-default'>{this.props.abbr}</h3>
-    </div>
-  }
-}
-
-class Calendar extends React.Component {
-  render() {
-    return <div className='inline-block font-serif rounded border border-grey-darker border-t-8 p-2 pb-1 text-center'>
-      <div>{this.props.top}</div>
-      <div className='text-xl font-bold'>{this.props.bottom}</div>
     </div>
   }
 }

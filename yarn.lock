@@ -7011,11 +7011,6 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
-modern-normalize@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-0.4.0.tgz#1ccbc52861e1bce258144d28e890dc709b120ed2"
-  integrity sha512-zp2sboXOwN7PVH0O7rzNweTFAOK0ObSZezOV9xNW71nvIbRFcGTlyLdlhH6dEFpx59rq11pjs3YGPXoKt0GekA==
-
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -7111,11 +7106,6 @@ neo-async@^2.5.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
-
-netlify-identity-widget@^1.2.0:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/netlify-identity-widget/-/netlify-identity-widget-1.5.2.tgz#c3bc18e275ebb4e8030bba31dfc38c9f2a540346"
-  integrity sha512-A1Pwnk+Bun+Xb0hO8w9g8plrhJah3jNomqWLFnd6GvGQ4jfhUS5jCzh/Cn6uHhuGNnriSUV0lFCKb3VJBsiZeQ==
 
 nice-try@^1.0.4:
   version "1.0.5"

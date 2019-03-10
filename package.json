@@ -40,7 +40,6 @@
     "start:app": "react-scripts start",
     "start:content": "chokidar 'content/**/**' -c 'npm run prepare-content'",
     "watch:css": "postcss src/styles/index.css -o src/index.css -w",
-
     "build": "npm-run-all -s prepare-content tailwind:css build:app build:react-snapshot build:sitemap build:sw build:sha",
     "build:app": "react-scripts build",
     "build:react-snapshot": "react-snapshot",
@@ -48,9 +47,7 @@
     "build:sitemap": "node ./functions/generate-sitemap.js",
     "build:sha": "git rev-parse HEAD > build/sha",
     "build:css": "postcss src/styles/index.css -o src/index.css",
-
-    "tailwind:css":"tailwind build src/css/tailwind.src.css -c tailwind.config.js -o src/css/tailwind.css",
-
+    "tailwind:css": "tailwind build src/css/tailwind.src.css -c tailwind.config.js -o src/css/tailwind.css",
     "parse-content": "node ./functions/parse-content.js",
     "resize-images": "node ./functions/resize-images.js",
     "prepare-content": "npm-run-all -s parse-content resize-images",
