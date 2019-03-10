@@ -30,10 +30,10 @@ collections: # A list of collections the CMS should be able to edit
         name: image
         widget: image
       - label: Name
-        name: name
+        name: image_name
         widget: string
       - label: Beschreibung
-        name: description
+        name: image_description
         widget: text
       - label: Fotos
         name: photos
