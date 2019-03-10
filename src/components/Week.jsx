@@ -1,19 +1,29 @@
 import React from 'react'
 import _groupBy from 'lodash/groupBy'
+import EXIF from 'exif-js'
 
 import Modal from './Modal'
 import PhotoList from './PhotoList'
 import Calendar from './Calendar'
 
 export default class Week extends React.Component {
-  state = { modal: false }
+  state = { modal: false, exif: {} }
+
+  storeExif = () => {
+    this.setState({exif: EXIF.getAllTags(this.exifSrc)})
+  }
+
+  getExif = (event) => {
+    this.exifSrc = event.target
+    EXIF.getData(event.target, this.storeExif)
+  }
 
   render() {
     const [year, cw] = this.props.title.split("-")
     const groupedPhotos = _groupBy(this.props.photos, "day")
 
     return <div className="relative max-w-sm overflow-hiden shadow-lg mb-10 mx-auto border-4 border-white rounded">
-      <img className="w-full rounded cursor-pointer" src={this.props.image} onClick={() => this.setState({modal: true})} alt={this.props.name} />
+      <img onLoad={this.getExif} className="w-full rounded cursor-pointer" src={this.props.image} onClick={() => this.setState({modal: true})} alt={this.props.name} />
 
       {this.state.modal && <Modal onClose={() => this.setState({modal: false})}>
         <img className="w-full rounded cursor-pointer" src={this.props.image} alt={this.props.name} />
@@ -24,7 +34,13 @@ export default class Week extends React.Component {
       </div>
 
       <div className="p-3">
-        <div className="font-sans font-normal text-xl mb-2">{this.props.image_name}</div>
+        <div className="mb-2 flex">
+          <div className="font-sans font-normal text-xl flex-grow">
+            {this.props.image_name}
+          </div>
+          <FNumber {...this.state.exif.FNumber} />
+          <Exposure {...this.state.exif.ExposureTime} />
+        </div>
         <p className="text-grey-darker text-base whitespace-pre-wrap">
           {this.props.image_description}
         </p>
@@ -60,5 +76,21 @@ class Day extends React.Component {
     return <div className="mr-2 bg-lightgrey">
       <h3 className='text-xl text-grey font-serif font-hairline cursor-default'>{this.props.abbr}</h3>
     </div>
+  }
+}
+
+const Exposure = ({numerator, denominator}) => {
+  if (numerator && denominator) {
+    return <div className="text-grey-dark font-serif ml-2">1/{denominator / numerator}</div>
+  } else {
+    return null
+  }
+}
+
+const FNumber = ({numerator, denominator}) => {
+  if (numerator && denominator) {
+    return <div className="text-grey-dark font-serif">f/{numerator / denominator}</div>
+  } else {
+    return null
   }
 }

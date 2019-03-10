@@ -1,7 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
-import Meta from './components/Meta'
 import WeekList from './components/WeekList'
 import Calendar from './components/Calendar'
 import data from './data.json'
@@ -14,15 +12,6 @@ class App extends React.Component {
   }
 
   render () {
-
-    // const globalSettings = this.getDocument('settings', 'global')
-    // const {
-    //   siteTitle,
-    //   siteUrl,
-    //   socialMediaCard,
-    //   headerScripts
-    // } = globalSettings
-
     const calendarweeks = this.state.data.calendarweeks.filter(cw => cw.visible)
     const settings = this.state.data.settings[0]
 
@@ -32,9 +21,7 @@ class App extends React.Component {
       <div className="lg:flex -mx-6">
         <div className="mx-auto min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5 ">
           <h1 className='text-3xl mt-10 mb-10 font-serif font-normal text-center'>
-            <Calendar color='blue-dark' className='font-bold mr-2'>
-              Mo
-            </Calendar>
+            <Calendar color='blue-dark' className='font-bold mr-2'>Mo</Calendar>
             ntagsbild
           </h1>
 
