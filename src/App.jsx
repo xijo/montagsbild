@@ -14,6 +14,7 @@ class App extends React.Component {
   }
 
   render () {
+
     // const globalSettings = this.getDocument('settings', 'global')
     // const {
     //   siteTitle,
@@ -23,8 +24,11 @@ class App extends React.Component {
     // } = globalSettings
 
     const calendarweeks = this.state.data.calendarweeks.filter(cw => cw.visible)
+    const settings = this.state.data.settings[0]
 
     return <div className="w-full max-w-screen-xl mx-auto px-6 pb-20">
+      <Helmet title={settings.siteTitle} />
+
       <div className="lg:flex -mx-6">
         <div className="mx-auto min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5 ">
           <h1 className='text-3xl mt-10 mb-10 font-serif font-normal text-center'>
