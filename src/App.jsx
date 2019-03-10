@@ -41,7 +41,7 @@ class App extends React.Component {
             <div className="mb-4">
               Inhaltlich Verantwortlicher gemäß § 10 Absatz 3 MDStV:<br/>
               Günther Opper<br/>
-              opper[at]online.de
+              opper[at]gmx.de
             </div>
 
             <div className="mb-4 font-bold">
