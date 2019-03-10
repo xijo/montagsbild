@@ -20,7 +20,7 @@ export default class Week extends React.Component {
       </Modal>}
 
       <div className='absolute pin-t' style={{right: -90, zIndex: -10}}>
-        <Calendar top={year} bottom={`KW ${cw}`} />
+        <Calendar top={year} bottom={`KW ${cw}`} color='grey-darker' />
       </div>
 
       <div className="p-3">
