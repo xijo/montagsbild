@@ -63,14 +63,18 @@ export default class Week extends React.Component {
 class Day extends React.Component {
   state = { modal: false }
 
+  closeModal = () => {
+    this.setState({modal: false})
+  }
+
   render() {
     if (this.props.photos) {
       return <div className="mr-2 bg-lightgrey">
         <div className='inline-block relative z-10 stack cursor-pointer' onClick={() => this.setState({modal: true})}>
           <img className="shadow bg-white w-12 p-1" alt="" src={this.props.photos[0].image} />
         </div>
-        {this.state.modal && <Modal padded onClose={() => this.setState({modal: false})}>
-          <PhotoList entries={this.props.photos} cw={this.props.cw} abbr={this.props.abbr} />
+        {this.state.modal && <Modal padded onClose={this.closeModal}>
+          <PhotoList entries={this.props.photos} cw={this.props.cw} abbr={this.props.abbr} onClose={this.closeModal} />
         </Modal>}
       </div>
     }

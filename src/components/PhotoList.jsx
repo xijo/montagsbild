@@ -27,19 +27,19 @@ export default class PhotoList extends React.Component {
 
     return <div onClick={this.stopPropagation}>
       <div className="relative">
-        <img className="w-full rounded" alt="" src={photo.image} />
+        <img className="w-full rounded cursor-pointer" onClick={this.props.onClose} alt="" src={photo.image} />
 
-        {showPrevButton && <div onClick={this.prevPhoto} className="absolute bg-white cursor-pointer rounded-tr pin-l pin-b h-10 w-10 flex justify-center items-center">
-          <ChevronLeft size={30} />
+        {showPrevButton && <div onClick={this.prevPhoto} className="absolute bg-white hover:text-black text-grey-dark cursor-pointer rounded-tr pin-l pin-b h-12 w-12 flex justify-center items-center">
+          <ChevronLeft size={40} />
         </div>}
 
-        {showNextButton && <div onClick={this.nextPhoto} className="absolute bg-white cursor-pointer rounded-tl pin-r pin-b h-10 w-10 flex justify-center items-center">
-          <ChevronRight size={30} />
+        {showNextButton && <div onClick={this.nextPhoto} className="absolute bg-white hover:text-black text-grey-dark cursor-pointer rounded-tl pin-r pin-b h-12 w-12 flex justify-center items-center">
+          <ChevronRight size={40} />
         </div>}
       </div>
 
-      <div className="flex mt-2">
-        <Calendar top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
+      <div className="flex items-start mt-2">
+        <Calendar color='grey-darker' top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
         <div className="flex flex-col flex-grow ml-2">
           <p className="text-grey-darker text-base whitespace-pre-wrap">
             {photo.description}
