@@ -1,6 +1,6 @@
 const _ceil = require('lodash/ceil')
 
-const sizes = [10, 300, 600, 1200, 1800]
+const sizes = [10, 48, 472, 784]
 const outputDir = '/images/uploads/'
 const resizedDir = '/images/uploads/resized/'
 const imgixUrl = null // imgix web folder domain e.g. https://example.imgix.net (no trailing slash)
