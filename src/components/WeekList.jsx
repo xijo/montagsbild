@@ -10,7 +10,7 @@ export default class WeekList extends React.Component {
   }
 
   render() {
-    const content = _sortBy(this.props.entries, 'title').reverse().slice(0, this.state.limit).map((cw, index) => { return <Week key={index} {...cw} /> })
+    const content = _sortBy(this.props.entries, 'title').reverse().slice(0, this.state.limit).map((cw, index) => { return <Week key={index} {...cw} exifs={this.props.exifs} /> })
     const showButton = this.state.limit < this.props.entries.length
 
     return <>

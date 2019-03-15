@@ -1,6 +1,5 @@
 import React from 'react'
 import _groupBy from 'lodash/groupBy'
-import EXIF from 'exif-js'
 
 import Modal from './Modal'
 import PhotoList from './PhotoList'
@@ -9,22 +8,13 @@ import Calendar from './Calendar'
 export default class Week extends React.Component {
   state = { modal: false, exif: {} }
 
-  storeExif = () => {
-    this.setState({exif: EXIF.getAllTags(this.exifSrc)})
-  }
-
-  getExif = (event) => {
-    this.exifSrc = event.target
-    EXIF.getData(event.target, this.storeExif)
-    setTimeout(this.storeExif, 1000)
-  }
-
   render() {
     const [year, cw] = this.props.title.split("-")
     const groupedPhotos = _groupBy(this.props.photos, "day")
+    const exif = this.props.exifs.find(e => e.filename === this.props.image)
 
     return <div className="relative max-w-sm overflow-hiden shadow-lg mb-10 mx-auto border-4 border-white rounded">
-      <img onLoad={this.getExif} className="w-full rounded cursor-pointer" src={this.props.image} onClick={() => this.setState({modal: true})} alt={this.props.name} />
+      <img className="w-full rounded cursor-pointer" src={this.props.image} onClick={() => this.setState({modal: true})} alt={this.props.name} />
 
       {this.state.modal && <Modal onClose={() => this.setState({modal: false})}>
         <img className="w-full rounded cursor-pointer" src={this.props.image} alt={this.props.name} />
@@ -39,8 +29,8 @@ export default class Week extends React.Component {
           <div className="font-sans font-normal text-xl flex-grow">
             {this.props.image_name}
           </div>
-          <FNumber {...this.state.exif.FNumber} />
-          <Exposure {...this.state.exif.ExposureTime} />
+          <FNumber value={exif.FNumber[0]} />
+          <Exposure value={1/exif.ExposureTime} />
         </div>
         <p className="text-grey-darker text-base whitespace-pre-wrap">
           {this.props.image_description}
@@ -84,17 +74,17 @@ class Day extends React.Component {
   }
 }
 
-const Exposure = ({numerator, denominator}) => {
-  if (numerator && denominator) {
-    return <div className="text-grey-dark font-serif ml-2">1/{denominator / numerator}</div>
+const Exposure = ({value}) => {
+  if (value) {
+    return <div className="text-grey-dark font-serif ml-2">1/{value}</div>
   } else {
     return null
   }
 }
 
-const FNumber = ({numerator, denominator}) => {
-  if (numerator && denominator) {
-    return <div className="text-grey-dark font-serif">f/{numerator / denominator}</div>
+const FNumber = ({value}) => {
+  if (value) {
+    return <div className="text-grey-dark font-serif">f/{value}</div>
   } else {
     return null
   }

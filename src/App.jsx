@@ -25,7 +25,7 @@ class App extends React.Component {
             ntagsbild
           </h1>
 
-          <WeekList entries={calendarweeks} />
+          <WeekList entries={calendarweeks} exifs={this.state.data.exifs} />
 
           <hr/>
 
