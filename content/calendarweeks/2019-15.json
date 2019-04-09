@@ -4,5 +4,11 @@
   "image": "/images/uploads/welches-in-kw15.jpg",
   "image_name": "Das ist wieder die Frage ....",
   "image_description": "... und hier kommen die möglichen Kandidaten dazu :",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/vis-a-vis.jpg",
+      "day": "Di",
+      "description": "Erst traf ich einen Wollschweber. Der führte mich direkt zu diesem wunderschönen Aurorafalter. Seit 3 Jahren versuche ich einen solchenscharf abzubilden - heute hat es geklappt ! Juchuh !\nDer Bodennahe Einsatz (neudeutsch: underfoot) ist sehr empfehlenswert. So wirkt es lebendig - eben auf Augenhöhe also vis-a-vis."
+    }
+  ]
 }
