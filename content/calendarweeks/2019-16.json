@@ -4,5 +4,11 @@
   "image": "/images/uploads/großer-falter.jpg",
   "image_name": "Großer Falter",
   "image_description": "Hurra, hurra ! Der Schwalbenschwanz ist da !\nEr ist doppelt so groß wie ein Admiral und ich freue mich jedesmal, wenn ich einen sehe. \nEinen Schwalbenschwanz zu fotografieren, von vorne mit scharfen, schwarzen Augen ist daher immer ein Erfolg.",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/p1360175.jpg",
+      "day": "So",
+      "description": "Ein Wiesenvögelchen findet sich meist auf der Wiese.\nDie Bodenperspektive und das leichte Gegenlicht geben diesen Foto seinen Reiz.\nDie exakt gewählte Schärfenebene und die daduch haarscharfen Details sind die Zutaten."
+    }
+  ]
 }
