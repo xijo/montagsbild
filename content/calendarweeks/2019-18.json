@@ -2,7 +2,7 @@
   "title": "2019-18",
   "visible": true,
   "image": "/images/uploads/welches-in-kw17.jpg",
-  "image_name": "Hier kommt die Vor-Auswahl:",
+  "image_name": "So entstanden die Bilder:",
   "image_description": "     29.           30.            1.           2.           3.          4.          5.",
   "photos": [
     {
@@ -19,6 +19,11 @@
       "image": "/images/uploads/drei-mal-löwenzahn.jpg",
       "day": "Do",
       "description": "Der Titel \"drei mal Löwenzahn\" ist doppeldeutig. Er passt auf die Dreierbande der Schirmchen, aber auch auf die drei Zustände: Gelbe Blüte, volle Pusteblume und (fast) verweht. Gefunden in meiner Mittagspause in Bad Nauheim."
+    },
+    {
+      "image": "/images/uploads/mai-schnee.jpg",
+      "day": "Sa",
+      "description": "Diese Überraschung wurde angekündigt: Schneefall bis 400m. Weil wir in ca. 450m Höhe knapp unter der \"Hohen Wurzel\" (613m) immer zu den kälteren Regionen gehören, gibt es nun das Mai-Bild mit Schnee. Ich nenne es Mai-Schnee !"
     }
   ]
 }
