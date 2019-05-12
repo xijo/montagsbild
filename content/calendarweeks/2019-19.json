@@ -4,5 +4,11 @@
   "image": "/images/uploads/welches.jpg",
   "image_name": "Hier kommen die Fotos in KW19:",
   "image_description": "     6.           7.           8.            9.           10.          11.         12.",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/spielgefährte.jpg",
+      "day": "Di",
+      "description": "Ein grosses Vergnügen nach der Schule war das Spielen mit \"Bobby\". Der kleine Vierbeiner ließ sich auch von 10 Schulkindern nicht fangen und alle hatten sichtlich Spaß daran. Natürlich fragte ich die Besitzerin zuvor um Erlaubnis, obwohl das rechtlich nicht nötig ist, um Tiere zu Fotografieren. Diese haben nämlich kein \"Recht am eigenen Bild\"."
+    }
+  ]
 }
