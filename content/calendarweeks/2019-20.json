@@ -4,5 +4,11 @@
   "image": "/images/uploads/welches.jpg",
   "image_name": "Kandidaten aus KW 20:",
   "image_description": "    13          14          15          16          17          18          19",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/in-der-spur.jpg",
+      "day": "Mo",
+      "description": "Lange folgt ich dem kleinen Kohlweißling. Bis er sich endlich in einer feuchten Traktospur zum Trinken niederließ. Ein bischen knapper belichtet um das leichte Gegenlicht zu verstärken."
+    }
+  ]
 }
