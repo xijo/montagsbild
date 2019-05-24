@@ -3,12 +3,22 @@
   "visible": true,
   "image": "/images/uploads/welches-in-kw15.jpg",
   "image_name": "Fotos aus KW21 :",
-  "image_description": "     20          21         22           23           24           25          26",
+  "image_description": "     20          21         22           23            24           25          26",
   "photos": [
     {
       "image": "/images/uploads/die-brücke.jpg",
       "day": "Do",
       "description": "An meinem Mittagsplätzchen kam mir eine kleine Raupe entgegen. Im typischen \"grazielen\" Raupengang. Dabei war natürlich eine bodennahe Aufnahme war gefragt. "
+    },
+    {
+      "image": "/images/uploads/verfolgt.jpg",
+      "day": "Do",
+      "description": "Und dann war gleich zwei Verfolger hinter der kleinen Raupe her. Es wurde spannend."
+    },
+    {
+      "image": "/images/uploads/ganz-schön-rund.jpg",
+      "day": "Fr",
+      "description": "Das erste Herrgottstierchen in diesem Jahr. Gesehen und fotografiert am 24.5.2019 auf unserer Terasse.  Das hessische Wort für Marienkäfer müsste ich eigentlich so schreiben: Herrgodsdiersche !"
     }
   ]
 }
