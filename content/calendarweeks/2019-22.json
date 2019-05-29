@@ -4,5 +4,11 @@
   "image": "/images/uploads/welches-in-kw17.jpg",
   "image_name": "Fotos in KW22 :",
   "image_description": "     27          28          29           30          31            1            2",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/erste-libelle.jpg",
+      "day": "Di",
+      "description": "Lange war es kühl und von den beliebten Fliegern war nichts zu sehen. Aber nun entdeckte ich die erste Libelle an einem kleinen Teich. Sie war nur 4-5cm lang, aber sie lies mich nahe genug herankommen. Manuelles Scharfstellen war allerdings angesagt."
+    }
+  ]
 }
