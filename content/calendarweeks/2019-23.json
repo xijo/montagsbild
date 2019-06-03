@@ -4,5 +4,11 @@
   "image": "/images/uploads/welches-in-kw15.jpg",
   "image_name": "Erste Vorschläge dazu :",
   "image_description": "     3.           4.           5.            6.            7.            8.            9.",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/feuerschiff-vor-lorch.jpg",
+      "day": "Mo",
+      "description": "Ein Blick von der Fähre Richtung Lorch. Die Fähre benutze ich sehr selten, aber auch sehr gerne. Statt übers Lenkrad schaue ich dann durch den Sucher und der Kapitän steuert. Für dieses Foto fing ich zu dem knallroten Feuerwehrboot noch die gelbe Fahne und ein bischen Blau ein, denn bunt wirkt fröhlich."
+    }
+  ]
 }
