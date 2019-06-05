@@ -3,7 +3,7 @@
   "visible": true,
   "image": "/images/uploads/welches-in-kw15.jpg",
   "image_name": "Erste Vorschläge dazu :",
-  "image_description": "          3.          4.          5.           6.           7.           8.           9.",
+  "image_description": "       3.             4.           5.           6.           7.           8.           9.",
   "photos": [
     {
       "image": "/images/uploads/feuerschiff-vor-lorch.jpg",
@@ -29,6 +29,11 @@
       "image": "/images/uploads/bg-tanz.jpg",
       "day": "Di",
       "description": "Das die Männchen den Weibchen, oft zu Hauf, hinterherjagen sah ich oft. Aber das ein Weibchen um ein Mänchen herumschwirrt beoabachtete ich zum ersten Mal. Das geschiet immer noch zu schnell für eine Verschlusszeit von 1/320 Sekunde."
+    },
+    {
+      "image": "/images/uploads/bg-weibchen.jpg",
+      "day": "Di",
+      "description": "Natürlich wartete ich bis die Dame sich von ihrer schönsten Seite zeigte. Also eine Aufnahme mit sichtbaren Flügel ist nicht beim ersten Versuch drin. Wegen der schwankenden Brennesseln benutzte ich die automatische Scharfeinstellung."
     }
   ]
 }
