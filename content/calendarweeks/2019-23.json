@@ -3,7 +3,7 @@
   "visible": true,
   "image": "/images/uploads/welches-in-kw15.jpg",
   "image_name": "Erste Vorschläge dazu :",
-  "image_description": "     3.           4.           5.            6.            7.            8.            9.",
+  "image_description": "          3.          4.          5.           6.           7.           8.           9.",
   "photos": [
     {
       "image": "/images/uploads/feuerschiff-vor-lorch.jpg",
@@ -24,6 +24,11 @@
       "image": "/images/uploads/bg-duo.jpg",
       "day": "Di",
       "description": "Die Mädels unter den \"Blaugebänderten Prachtlibellen\" tragen ein schillerndes Grün. Ich beschreibe es mal als Hellgrünmetallic. Dahinter sitz das Männchen im Schatten. Scharfstellen konnt ich hier nur eine von beiden."
+    },
+    {
+      "image": "/images/uploads/bg-tanz.jpg",
+      "day": "Di",
+      "description": "Das die Männchen den Weibchen, oft zu Hauf, hinterherjagen sah ich oft. Aber das ein Weibchen um ein Mänchen herumschwirrt beoabachtete ich zum ersten Mal. "
     }
   ]
 }
