@@ -4,5 +4,11 @@
   "image": "/images/uploads/welches-in-kw24.jpg",
   "image_name": "Auswahl",
   "image_description": "     10.         11.         12.         13.         14.         15.        16.",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/blick-nach-westen.jpg",
+      "day": "Mi",
+      "description": "Wenn einmal 2 Tage hintereinander keine Fotos entstehen, dann blicke ich abends gerne nach Westen. Das Bild entstand um 22.20 Uhr genau 9 Tage vor der Sonnenwende. "
+    }
+  ]
 }
