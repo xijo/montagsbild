@@ -34,13 +34,6 @@ const getDocumentExt = filePath => {
   return `${pathParsed.ext}`
 }
 
-const parseMarkdown = data => {
-  data = matter(data)
-  data = { ...data, ...data.data }
-  delete data.data
-  return JSON.stringify(data)
-}
-
 const parseYaml = data => {
   data = yaml.safeLoad(data, 'utf8') || {}
   return JSON.stringify(data)
@@ -48,9 +41,6 @@ const parseYaml = data => {
 
 const getFileContents = filePath => {
   return readFile(filePath, 'utf8').then(data => {
-    if (getDocumentExt(filePath) === '.md') {
-      data = parseMarkdown(data)
-    }
     if (['.yaml', '.yml'].includes(getDocumentExt(filePath))) {
       data = parseYaml(data)
     }

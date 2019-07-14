@@ -33,20 +33,20 @@ export default class PhotoList extends React.Component {
       <div className="relative">
         <img className="w-full rounded cursor-pointer" onClick={this.props.onClose} alt="" src={getImageSrc(photo.image, 784)} />
 
-        {showPrevButton && <div onClick={this.prevPhoto} className="absolute bg-white hover:text-black text-grey-dark cursor-pointer rounded-tr pin-l pin-b h-12 w-12 flex justify-center items-center">
+        {showPrevButton && <div onClick={this.prevPhoto} className="absolute bg-white hover:text-black text-gray-dark cursor-pointer rounded-tr left-0 bottom-0 h-12 w-12 flex justify-center items-center">
           <ChevronLeft size={40} />
         </div>}
 
-        {showNextButton && <div onClick={this.nextPhoto} className="absolute bg-white hover:text-black text-grey-dark cursor-pointer rounded-tl pin-r pin-b h-12 w-12 flex justify-center items-center">
+        {showNextButton && <div onClick={this.nextPhoto} className="absolute bg-white hover:text-black text-gray-dark cursor-pointer rounded-tl right-0 bottom-0 h-12 w-12 flex justify-center items-center">
           <ChevronRight size={40} />
         </div>}
       </div>
 
       <div className="flex items-start mt-2">
-        <Calendar color='grey-darker' top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
+        <Calendar color='gray-600' top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
         <div className="flex flex-col flex-grow ml-2">
           <Exif {...exif} />
-          <p className="text-grey-darker text-base whitespace-pre-wrap">
+          <p className="text-gray-darker text-base whitespace-pre-wrap">
             {photo.description}
           </p>
         </div>

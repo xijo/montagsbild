@@ -15,7 +15,7 @@ export default class WeekList extends React.Component {
 
     return <>
       {content}
-      {showButton && <button onClick={this.increment} className='block mx-auto bg-blue-dark hover:bg-blue text-white font-normal py-2 px-4 rounded'>Mehr anzeigen!</button>}
+      {showButton && <button onClick={this.increment} className='block mx-auto bg-blue-700 hover:bg-blue text-white font-normal py-2 px-4 rounded'>Mehr anzeigen!</button>}
     </>
   }
 }

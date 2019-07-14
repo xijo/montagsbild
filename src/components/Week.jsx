@@ -18,15 +18,15 @@ export default class Week extends React.Component {
     const mediumImage = getImageSrc(this.props.image, 472)
     const largeImage = getImageSrc(this.props.image, 784)
 
-    return <div className="relative max-w-sm overflow-hiden shadow-lg mb-10 mx-auto border-4 border-white rounded">
+    return <div className="relative max-w-content overflow-hiden shadow-2xl mb-10 mx-auto border-4 border-white rounded">
       <img className="w-full rounded cursor-pointer" src={mediumImage} onClick={() => this.setState({modal: true})} alt={this.props.name} />
 
       {this.state.modal && <Modal onClose={() => this.setState({modal: false})}>
         <img className="w-full rounded cursor-pointer" src={largeImage} alt={this.props.name} />
       </Modal>}
 
-      <div className='absolute pin-t' style={{right: -90, zIndex: -10}}>
-        <Calendar top={year} bottom={`KW ${cw}`} color='grey-darker' />
+      <div className='absolute top-0' style={{right: -95, zIndex: -10}}>
+        <Calendar top={year} bottom={`KW ${cw}`} color='gray-600' />
       </div>
 
       <div className="p-3">
@@ -36,7 +36,7 @@ export default class Week extends React.Component {
           </div>
           <Exif {...exif} />
         </div>
-        <p className="text-grey-darker text-base whitespace-pre-wrap">
+        <p className="text-gray-700 text-base whitespace-pre-wrap">
           {this.props.image_description}
         </p>
       </div>
@@ -73,7 +73,7 @@ class Day extends React.Component {
       </div>
     }
     return <div className="mr-2 bg-lightgrey">
-      <h3 className='text-xl text-grey font-serif font-hairline cursor-default'>{this.props.abbr}</h3>
+      <h3 className='text-xl text-gray-600 font-serif font-hairline cursor-default'>{this.props.abbr}</h3>
     </div>
   }
 }

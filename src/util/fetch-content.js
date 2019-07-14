@@ -19,14 +19,6 @@ const getFileExtension = str => {
   return matches && matches[1]
 }
 
-const parseMarkdown = data => {
-  console.log('Parsing md')
-  data = matter(data)
-  data = { ...data, ...data.data }
-  delete data.data
-  return data
-}
-
 const parseYaml = data => {
   console.log('Parsing yaml')
   return yaml.safeLoad(data) || {}
@@ -134,10 +126,7 @@ export const fetchContent = async (rateLimit = 0) => {
               const fileType = getFileExtension(file.name)
               let fileContents = b64DecodeUnicode(file.content)
               fileContents = replaceUploadUrls(uploads, fileContents)
-              const json =
-                fileType === 'md'
-                  ? parseMarkdown(fileContents)
-                  : parseYaml(fileContents)
+              const json = parseYaml(fileContents)
               if (json) data[dirKey].push(json)
             })
             return data

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Scope+One');
-@tailwind preflight;
+
+@tailwind base;
 @tailwind utilities;
 
 /* Your custom CSS here */

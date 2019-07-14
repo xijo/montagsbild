@@ -1,11 +1,9 @@
-import 'core-js/es6'
+import 'core-js'
 import React from 'react'
 import { render } from 'react-snapshot'
 import App from './App'
-import registerServiceWorker, { unregister } from './registerServiceWorker'
-import data from './data.json'
 
-import './css/tailwind.css'
+import './tailwind.css'
 
 const rootEl = document.getElementById('root')
 render(<App />, rootEl)
@@ -19,11 +17,4 @@ if (module.hot) {
 
 if (process.env.REACT_APP_SITE_URL && 'localStorage' in window) {
   window.localStorage.setItem('netlifySiteURL', process.env.REACT_APP_SITE_URL)
-}
-
-const globalSettings =
-  data.settings && data.settings.filter(doc => doc.name === 'global')[0]
-
-if (globalSettings) {
-  globalSettings.enableServiceWorker ? registerServiceWorker() : unregister()
 }

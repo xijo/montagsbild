@@ -4,8 +4,6 @@ import WeekList from './components/WeekList'
 import Calendar from './components/Calendar'
 import data from './data.json'
 
-import './css/custom.css'
-
 class App extends React.Component {
   state = {
     data
@@ -15,13 +13,13 @@ class App extends React.Component {
     const calendarweeks = this.state.data.calendarweeks.filter(cw => cw.visible)
     const settings = this.state.data.settings[0]
 
-    return <div className="w-full max-w-screen-xl mx-auto px-6 pb-20">
+    return <div className="w-full mx-auto px-6 pb-20">
       <Helmet title={settings.siteTitle} />
 
       <div className="lg:flex -mx-6">
         <div className="mx-auto min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5 ">
           <h1 className='text-3xl mt-10 mb-10 font-serif font-normal text-center'>
-            <Calendar color='blue-dark' className='font-bold mr-2'>Mo</Calendar>
+            <Calendar color='blue-700' className='font-bold mr-2'>Mo</Calendar>
             ntagsbild
           </h1>
 
@@ -29,7 +27,7 @@ class App extends React.Component {
 
           <hr/>
 
-          <div className="max-w-md mx-auto text-grey-dark mt-20 text-sm">
+          <div className="max-w-content mx-auto text-gray-dark mt-20 text-sm">
             <h3 className="text-2xl font-serif font-normal text-center mb-2">Impressum</h3>
 
             <div className="mb-4">
