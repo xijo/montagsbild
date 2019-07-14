@@ -43,7 +43,7 @@ export default class PhotoList extends React.Component {
       </div>
 
       <div className="flex items-start mt-2">
-        <Calendar color='gray-600' top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
+        <Calendar border='border-gray-600' bg='bg-gray-600' top={`KW ${this.props.cw}`} bottom={this.props.abbr} />
         <div className="flex flex-col flex-grow ml-2">
           <Exif {...exif} />
           <p className="text-gray-darker text-base whitespace-pre-wrap">

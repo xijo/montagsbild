@@ -26,7 +26,7 @@ export default class Week extends React.Component {
       </Modal>}
 
       <div className='absolute top-0' style={{right: -95, zIndex: -10}}>
-        <Calendar top={year} bottom={`KW ${cw}`} color='gray-600' />
+        <Calendar top={year} bottom={`KW ${cw}`} border='border-gray-600' bg='bg-gray-600' />
       </div>
 
       <div className="p-3">
