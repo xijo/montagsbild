@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/1907-11-km882.jpg",
   "image_name": "Kleiner Bläuling",
-  "image_description": "Da gibt es nicht viel zu sagen. Dankenswerter Weise blieb es so lange auf der Blüt sitzen bis ich ein scharfes Foto im Kasten hatte. Darüber freu ich mich !"
+  "image_description": "Da gibt es nicht viel zu sagen. Dankenswerter Weise blieb es so lange auf der Blüt sitzen bis ich ein scharfes Foto im Kasten hatte. Darüber freu ich mich !",
+  "photos": [
+    {
+      "image": "/images/uploads/schwebfliege-schwebt.jpg",
+      "day": "So",
+      "description": "Heute morgen beim Brötchenholen entdeckte ich dies Schwebfliege an den Wegwarten. Ich holte alle Resourcen aus meiner Kamera. Blende ganz auf und Empfindlichkeit hoch brachten 1/8000 Sekunde als Belichtungszeit. Aber auch die reichte nicht aus für diese unglaublich schnelle Flügelbewegung."
+    }
+  ]
 }
