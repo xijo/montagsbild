@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/bei-39-grad.jpg",
   "image_name": "Bei 39 Grad",
-  "image_description": "Es war die heisseste Woche in Deutschland.\nDa kam nur eine \"abkühlendes Foto\" als Montagsbild in Frage."
+  "image_description": "Es war die heisseste Woche in Deutschland.\nDa kam nur eine \"abkühlendes Foto\" als Montagsbild in Frage.",
+  "photos": [
+    {
+      "image": "/images/uploads/nasser-spaß.jpg",
+      "day": "Mi",
+      "description": "Für den Rückweg aus Rheinhessen wählte ich die Fähre. Die hat zwar wenig Schatten, aber das Wasser kühlt die 39 Grad auf gefühlte 30 Grad runter.\nUnd der Anblick der Freizeit-Wassersportler erzeugte eine noch luftigere gefühlte Themperatur."
+    }
+  ]
 }
