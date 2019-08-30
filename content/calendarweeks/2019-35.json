@@ -2,6 +2,18 @@
   "title": "2019-35",
   "visible": true,
   "image": "/images/uploads/welches-in-kw24.jpg",
-  "image_name": "Vorauswahl für nächste Woche",
-  "image_description": "    26        27          28          29          30          31           1"
+  "image_name": "Erste Vorschläge für KW35 :",
+  "image_description": "    26           27           28           29           30           31            1",
+  "photos": [
+    {
+      "image": "/images/uploads/glockenblumen-versteck.jpg",
+      "day": "Fr",
+      "description": "Die Sonne steht schon recht tief und kündigt ein bischen den Herbst an. \nDa stürtzen sich die Bienen noch emsiger in die verbliebenen Nektarspender."
+    },
+    {
+      "image": "/images/uploads/wiesen-bewohner.jpg",
+      "day": "Fr",
+      "description": "Wiesenvögelchen heißt der kleine Flattermann. Ich versuchte den Schmetterling vor den Hintergrundbaum zu platzieren und die rosa Blüten daneben. So ganz klappte es nicht, aber ich kann ja noch ein wenig üben."
+    }
+  ]
 }
