@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/mittagsruh.jpg",
   "image_name": "Mittagsruh",
-  "image_description": "Auf dem Hinweg hatte ich es nicht mal bemerkt. Soviel Vertrauen und Unbekümmertheit musste ich einfangen und das Kätzchen ist nicht aufgewacht, so leise war ich. Ein besondere Einstellung benötigte ich nicht, außer der des lautlosen Auslösens. Aber die habe ich grundsätzlich aktiviert. "
+  "image_description": "Auf dem Hinweg hatte ich es nicht mal bemerkt. Soviel Vertrauen und Unbekümmertheit musste ich einfangen und das Kätzchen ist nicht aufgewacht, so leise war ich. Ein besondere Einstellung benötigte ich nicht, außer der des lautlosen Auslösens. Aber die habe ich grundsätzlich aktiviert. ",
+  "photos": [
+    {
+      "image": "/images/uploads/über-oberstein.jpg",
+      "day": "Mo",
+      "description": "Zur Mittagspause in Idar-Oberstein schnell mal hoch zum Schloss ist zwar anstrengend, aber nicht nur der Ausblick ist toll. Das Geländer und ein Mauerstück kam noch mit drauf damit die Tiefe sichtbar wird."
+    }
+  ]
 }
