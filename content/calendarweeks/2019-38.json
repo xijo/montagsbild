@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/luftikus.jpg",
   "image_name": "Luftikus",
-  "image_description": "Die kleine Schwebfliege steht geradezu in der Luft. Dennoch ist anvisieren und scharfstellen und einen homogenen Hintergrund dazu finden nicht einfach. Hier gelang es wegen des schattigen Umfeldes und des sonnenbeschienenen Hauptmotivs."
+  "image_description": "Die kleine Schwebfliege steht geradezu in der Luft. Dennoch ist anvisieren und scharfstellen und einen homogenen Hintergrund dazu finden nicht einfach. Hier gelang es wegen des schattigen Umfeldes und des sonnenbeschienenen Hauptmotivs.",
+  "photos": [
+    {
+      "image": "/images/uploads/kürbishügel.jpg",
+      "day": "Fr",
+      "description": "Der Hügel gehört zur Deko des Taunus-Wunderlands für Halloween. Als ich mit dem Fahrrad dort hielt, erfuhr ich das Halloween hier bereits an diesem Wochenende stattfand. Fotografisch problemlos, aber wegen des blauen Hintergrunds ein farbenfrohes Motiv."
+    }
+  ]
 }
