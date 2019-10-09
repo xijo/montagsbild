@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/herbst-in-farben.jpg",
   "image_name": "Herbst in Farben",
-  "image_description": "In der ersten Oktober-Woche sind noch immer Bienen und Schmetterlinge unterwegs. Dieser Kohlweißling sitzt mittendrin in den wunderschönen Herbstfarben. Wichtig ist natürlich die exakte Scharfeinstellung zwischen den tollen Blüten."
+  "image_description": "In der ersten Oktober-Woche sind noch immer Bienen und Schmetterlinge unterwegs. Dieser Kohlweißling sitzt mittendrin in den wunderschönen Herbstfarben. Wichtig ist natürlich die exakte Scharfeinstellung zwischen den tollen Blüten.",
+  "photos": [
+    {
+      "image": "/images/uploads/beleuchtet.jpg",
+      "day": "Mi",
+      "description": "Ein paar Sonnenstrahlen vielen durch den Wald. Ich hielt an um ein Herbstblatt einzufangen. Den Hintergrund wollte ich verschwinden lassen und benutzte daher den \"Low Key\" Effekt. Das bedeutet, dass die hellen Bildteile richtig belichtet werden und die dunkleren daher ins Schwarze entschwinden."
+    }
+  ]
 }
