@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/krankenhausbild.jpg",
   "image_name": "Krankenhausbild",
-  "image_description": "Der Titel mag etwas verwirren, aber das Foto entstand aus den Sankt Josephs Hospital in Wiesbaden. Schon nach dem ersten Blick aus dem 6. Stock beschloss ich beim nächsten Besuch die Kamera mitzubringen.\nNun erkennt man in der Abenddämmerung in der Mitte rechts die Luther-Kirche, dahinter das ehemalige US-Krankenhaus, das Finanzamt mit einsam hellem Treppenhaus ... und rechts hinten das beleuchtete Klarenthal."
+  "image_description": "Der Titel mag etwas verwirren, aber das Foto entstand aus den Sankt Josephs Hospital in Wiesbaden. Schon nach dem ersten Blick aus dem 6. Stock beschloss ich beim nächsten Besuch die Kamera mitzubringen.\nNun erkennt man in der Abenddämmerung in der Mitte rechts die Luther-Kirche, dahinter das ehemalige US-Krankenhaus, das Finanzamt mit einsam hellem Treppenhaus ... und rechts hinten das beleuchtete Klarenthal.",
+  "photos": [
+    {
+      "image": "/images/uploads/herbst-malerei.jpg",
+      "day": "Mo",
+      "description": "Dunkle Wolken und tiefstehende Sonne fand ich über der Rochus-Kapelle bei Bingen. Und weil die Weinstöcke in allen Herbstfarben leuchteten, hielt ich an fing das Bild ein. Die Situation und das Ergebnis erinnerten mich an die Landschaftsbild früherer Künstler mit Staffelei und Pinsel."
+    }
+  ]
 }
