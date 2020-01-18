@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/Sonnenwende.JPG",
   "image_name": "Sonnenwende",
-  "image_description": "Ein schöner Brauch wird bei den Pfadfindern wieder gefeiert: Die Winter-Sonnenwende. Es gibt eine Lichterspur durch den Wald und ein Feuer auf der Wiese. Zum Schluss darf jeder darüber springen und sich etwas wünschen.\nIch hatte mein Einbein-Stativ dabei, denn damit kann man wandern und fotografieren."
+  "image_description": "Ein schöner Brauch wird bei den Pfadfindern wieder gefeiert: Die Winter-Sonnenwende. Es gibt eine Lichterspur durch den Wald und ein Feuer auf der Wiese. Zum Schluss darf jeder darüber springen und sich etwas wünschen.\nIch hatte mein Einbein-Stativ dabei, denn damit kann man wandern und fotografieren.",
+  "photos": [
+    {
+      "image": "/images/uploads/Nasser Auftakt.JPG",
+      "day": "So",
+      "description": "Die Sonnenwend-Feier begann mit einem \"Nassen Auftakt\". Aber davon ließ sich niemand abhalten und so waren es doch fast 40 Teilnehmer die heuer zusammen kamen. Glücklicherweise hatte ich das lichtstarke Objektiv (Blende 1,8) dabei. Das geschieht selten, aber bei nahezu Dunkelheit nutzt auch der Bildstabilisator nichts mehr."
+    }
+  ]
 }
