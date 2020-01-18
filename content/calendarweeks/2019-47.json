@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/Rote Laterne.JPG",
   "image_name": "Rote Laterne",
-  "image_description": "Auf den letzten Drücker am Sonntag, beim Spaziergang in Sonnenberg, ergab sich doch noch ein Foto mit etwas Farbe. Wie der Titel andeutet der letzte rote Farbklecks des Herbstes im Strassengrau. Volles Weitwinkel (28 mm KB) und einen Anflug von Horizont um die Weite / Perspektive für das Auge erfassbar zu machen sind die Zutaten."
+  "image_description": "Auf den letzten Drücker am Sonntag, beim Spaziergang in Sonnenberg, ergab sich doch noch ein Foto mit etwas Farbe. Wie der Titel andeutet der letzte rote Farbklecks des Herbstes im Strassengrau. Volles Weitwinkel (28 mm KB) und einen Anflug von Horizont um die Weite / Perspektive für das Auge erfassbar zu machen sind die Zutaten.",
+  "photos": [
+    {
+      "image": "/images/uploads/Aufgescheucht.JPG",
+      "day": "So",
+      "description": "Aufgescheucht\nEs ist immer wieder das Gleiche. Kaum zücke ich die Kamera, schon sind sie weg. Aber das zu dokumentieren ist auch einmal ein Wochentagsbild wert. Ich fand das Motiv auf einem Acker im Adamstal aus dem Auto heraus fotografiert."
+    }
+  ]
 }
