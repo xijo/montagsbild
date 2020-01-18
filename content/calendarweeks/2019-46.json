@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/Herbstwind.JPG",
   "image_name": "Herbstwind",
-  "image_description": "Ein kräftiger Windstoß lässt den Herbst spüren. Auch wenn die Sonne sich hinter viel Nebel versteckt, bringen die Laubfarben die Jahreszeit prima zur Geltung. Ein bisschen musste ich auf die Belichtungszeit aufpassen, denn es sollte ja kein unscharfer Blättersalat werden."
+  "image_description": "Ein kräftiger Windstoß lässt den Herbst spüren. Auch wenn die Sonne sich hinter viel Nebel versteckt, bringen die Laubfarben die Jahreszeit prima zur Geltung. Ein bisschen musste ich auf die Belichtungszeit aufpassen, denn es sollte ja kein unscharfer Blättersalat werden.",
+  "photos": [
+    {
+      "image": "/images/uploads/Dornen bunt.JPG",
+      "day": "Sa",
+      "description": "Dornen bunt\nDieses Bild wird durch den unscharfen aber farbigen Hintergrund dominiert. Zwar sind die welken Dornen scharf und erinnern an einen \"lost place\" der Natur. Aber die Herbstfarben sind rot und gelb und grün und braun. Das macht es aus. Die Blende war offen (5,6) damit der Hintergrund verschwimmt."
+    }
+  ]
 }
