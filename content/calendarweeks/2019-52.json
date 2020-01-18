@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/Lichtblick.JPG",
   "image_name": "Durchblick",
-  "image_description": "Es war ein nebliger Morgen. Aber an einer einzigen Stelle genau unter der Straßenlaterne brachen die Schwaden auf und gaben den Blick zum Berg frei. Das ist eindeutig auf dem Foto zu erkennen.\nNatürlich musste ich über den Parkplatz rennen, damit ich als Vordergrund die Laterne einbeziehen konnte. Das nennt man dann körperliche Kreativität."
+  "image_description": "Es war ein nebliger Morgen. Aber an einer einzigen Stelle genau unter der Straßenlaterne brachen die Schwaden auf und gaben den Blick zum Berg frei. Das ist eindeutig auf dem Foto zu erkennen.\nNatürlich musste ich über den Parkplatz rennen, damit ich als Vordergrund die Laterne einbeziehen konnte. Das nennt man dann körperliche Kreativität.",
+  "photos": [
+    {
+      "image": "/images/uploads/Klare Kante.JPG",
+      "day": "Sa",
+      "description": "Die Abendsonne bringt die Schneeverwehungen an der Bergkante zum leuchten. Ich brauchte das nur noch einzufangen. Wieder belichtete ich ein wenig knapper, damit die beleuchteten Stellen besser \"im Licht\" stehen als der Rest."
+    }
+  ]
 }
