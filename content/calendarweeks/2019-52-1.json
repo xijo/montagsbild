@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/verzaubert.JPG",
   "image_name": "Verzaubert",
-  "image_description": "Es war wie die Versammlung zum gemeinsamen Lagerfeuer. Das jedoch entstand hoch oben in der Luft: Feuerwerk ! Belichtung: Manuell - Entfernungseinstellung: Manuell - Stabilisierung; Stativ,"
+  "image_description": "Es war wie die Versammlung zum gemeinsamen Lagerfeuer. Das jedoch entstand hoch oben in der Luft: Feuerwerk ! Belichtung: Manuell - Entfernungseinstellung: Manuell - Stabilisierung; Stativ,",
+  "photos": [
+    {
+      "image": "/images/uploads/Alles im Fluss.JPG",
+      "day": "Di",
+      "description": "Alles im Fluss\nDas Wasser befindet sich natürlich im Fluss, aber das Eis auch. Ich versuchte beide Aggregatzustände zugleich einzufangen. Dazu schloss ich die Blende auf den Wert f=16 und fixierte zuvor die Empfindlichkeit auf ASA 100. Dadurch wurde die Zeit lange genug um die Spritzer zu verwischen."
+    }
+  ]
 }
