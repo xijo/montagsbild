@@ -3,5 +3,12 @@
   "visible": true,
   "image": "/images/uploads/Umzingelt.JPG",
   "image_name": "Umzingelt",
-  "image_description": "Auf dem Gendarmenmarkt in Berlin stehen sie alle: Stände, Zelte, Weihnachtsbäume und Besucher. Mitten drin wie ein Fels in der Brandung ruht der Dom. Und als wäre das nicht genug wird einzig er von der Sonne bestrahlt, belohnt, getröstet. Danke liebe Sonne - danke alter Dom.  "
+  "image_description": "Auf dem Gendarmenmarkt in Berlin stehen sie alle: Stände, Zelte, Weihnachtsbäume und Besucher. Mitten drin wie ein Fels in der Brandung ruht der Dom. Und als wäre das nicht genug wird einzig er von der Sonne bestrahlt, belohnt, getröstet. Danke liebe Sonne - danke alter Dom.  ",
+  "photos": [
+    {
+      "image": "/images/uploads/Weihnachtsfähre.JPG",
+      "day": "Di",
+      "description": "Weihnachtsfähre\nSicherlich ist es üblich weihnachtlichen Schmuck anzulegen. Aber die Nikolaus-Fahnen an der Rheinfähre sind dann doch überraschend. Genau wie das Licht der tiefstehenden Sonne, die genau diesen Rheinabschnitt erreichte während die Ufer im Schatten liegen. Ich belichtete etwas knapper und die markante Beleuchtung zu unterstreichen."
+    }
+  ]
 }
