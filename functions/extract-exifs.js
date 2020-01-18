@@ -11,7 +11,7 @@ const exif = require("jpeg-exif")
 const options = {
   inputDir: './public/images/uploads',
   outputDir: './content/exifs',
-  imageFormats: ['jpg', 'jpeg']
+  imageFormats: ['JPG', 'JPEG', 'jpg', 'jpeg']
 }
 
 const saveExif = ({buffer, filename}) => {
