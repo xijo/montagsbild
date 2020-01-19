@@ -1,9 +1,9 @@
 {
   "title": "2020-03",
   "visible": true,
-  "image": "/images/uploads/Montagsbild.JPG",
-  "image_name": "Montagsbild ?",
-  "image_description": "Jeden Montag gibt es ein neues Montagsbild. \nWelches wird das nächste ?",
+  "image": "/images/uploads/Elektrisiert.JPG",
+  "image_name": "Elektrisiert",
+  "image_description": "Ich war noch nicht einmal halb auf der Brücke, als ich beschloss anzuhalten und dieses Schauspiel einzufangen. Der Nebel verfing sich zwischen den Kabeln und Masten und dazu schien die Morgensonne tiefstehend und rot dazwischen. Die Belichtung verknappte ich wegen der Farben, aber sonst: Einfach nur zum Genießen.",
   "photos": [
     {
       "image": "/images/uploads/Weg zum Dienst-Tag.JPG",
@@ -39,6 +39,11 @@
       "image": "/images/uploads/Sonnen-Strasse.JPG",
       "day": "Fr",
       "description": "Sonnenstraße\nAls ich von \"Sun Chemical\" aus losfuhr, fand ich diese Beleuchtung vor. Also parkte ich wieder ein, stellte mich mit der Kamera mitten auf die Straße und fing das Bild ein. Die Belichtung korrigierte ich nicht, daher ist die Sonne überstrahlt. Aber mit der Straße liegen wir goldrichtig."
+    },
+    {
+      "image": "/images/uploads/Nebel im Netz.JPG",
+      "day": "Fr",
+      "description": "Für den Bildschirmhintergrund wählte ich das Motiv der Woche noch einmal mit 16:9 Format aus.\nViel Spaß damit !"
     }
   ]
 }
