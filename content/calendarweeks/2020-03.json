@@ -3,7 +3,7 @@
   "visible": true,
   "image": "/images/uploads/Montagsbild.JPG",
   "image_name": "Welches wird Montagsbild ?",
-  "image_description": "Jeden Montag gibt es ein neues Montagsbild. Welches wird das nächste ?",
+  "image_description": "Jeden Montag gibt es ein neues Montagsbild. \nWelches wird das nächste ?",
   "photos": [
     {
       "image": "/images/uploads/Weg zum Dienst-Tag.JPG",
@@ -14,6 +14,11 @@
       "image": "/images/uploads/Forsythie.JPG",
       "day": "Mi",
       "description": "Forsythie\nEs ist die erste, die ich dieses Jahr vor die Linse bekam. Ein bisschen zu früh denke ich, aber Gelb bleibt Gelb. Ich belichtete bewusst zu stark - also zu hell. Highkey nennt sich diese Technik. "
+    },
+    {
+      "image": "/images/uploads/Mond Überwachung.JPG",
+      "day": "Do",
+      "description": "Mond Überwachung\nDen wunderbaren, abnehmenden Mond konnte wohl jeder in diesen Tagen beobachten. Aber diese Überwachungskamera davor forderte mich zu einem Foto heraus. Natürlich ist das Bild stark unterbelichtet um die Mondkrater nicht zu überstrahlen. \nMeine Eselsbrücke für den abnehmenden Mond heißt LLL ( Leuchtet Links : wird Leichter )."
     }
   ]
 }
