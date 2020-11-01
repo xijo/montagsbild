@@ -4,5 +4,11 @@
   "image": "/images/uploads/p1530995.jpg",
   "image_name": "Birnen-Bank",
   "image_description": "Der goldene Herbst bringt natürlich Obst und Früchte aller Art. Der Anspruch an ein Birnen-Bild liegt deshalb nicht nur im Ablichten einer Frucht. Mit dem kleinen Bänkchen vor der Stadt fand sich ein geeigneter Hintergrund.\nMit der Blende 9 erscheint die Bank leicht unscharf, dadurch wirken die Birnen schraf und knackig.",
-  "photos": []
+  "photos": [
+    {
+      "image": "/images/uploads/hohe-wurzel-nach-windbruch-u-borkenkäfer.jpg",
+      "day": "So",
+      "description": "Der Blick zur Hohen Wurzel - sowohl von Wiesbaden als auch von Taunusstein aus - schweift immer über Bäume und Wälder. Aber von der Rheingauer Seite aus wird deutlich, was der Borkenkäfer für ein Katastrophales Werk hinterlies."
+    }
+  ]
 }
